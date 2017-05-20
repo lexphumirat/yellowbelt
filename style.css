@@ -1,0 +1,259 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+#wrapper{
+  width: 1030px;
+  /*height: 1205px;*/
+
+  margin: 0px auto;
+  background-color: #1a1a1a;
+  border-left: 5px solid #151515;
+  border-right: 5px solid #151515;
+
+}
+#logo{
+  width: 200px;
+  display: inline-block;
+  padding-top: 15px;
+  padding-left: 9px;
+  padding-bottom: 15px;
+}
+#phonenumber{
+  color: #cfcfcf;
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: top;
+  margin-top: 30px;
+  margin-left: 650px;
+}
+#nav{
+
+  color: #cfcfcf;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(#515151, #3c3c3c, #2d2d2d);
+}
+#nav ul
+{
+  list-style-type: none;
+  margin-left: 5px;
+  padding: 5px 9px 5px 5px;
+  overflow: hidden;
+  display: inline-block;
+}
+#nav li
+{
+   /*float: left;*/
+   display: inline;
+   color: #cfcfcf;
+   text-align: center;
+   padding: 5px 20px 5px 5px;
+   text-decoration: none;
+   font-size: 14px;
+}
+#nav ul li a
+{
+color: #cfcfcf;
+text-decoration: none;
+}
+#home
+{
+  color: white;
+  font-size: 14px;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+span
+{
+  color: #525252;
+  font-size: 25px;
+  vertical-align: middle;
+  /*color: linear-gradient(#525252, #414141, #525252);*/
+}
+.navrightempty
+{
+  display: inline-block;
+  font-size: 40px;
+  vertical-align: top;
+  margin-left: 482px;
+  color: #525252;
+  border-left: 3px solid #525252;
+  height: 100px;
+}
+#main
+{
+  width: 100%;
+  border-bottom: 5px solid #3b3b3b;
+}
+#iconrow
+{
+  width: 100%;
+  background-color: #1a1a1a;
+  height: 170px;
+
+
+}
+.column
+{
+  width: 250px;
+  display: inline-block;
+
+}
+.sideicon img
+{
+  position: relative;
+  top: 40px;
+  width: 50px;
+  margin-right: 25px;
+  margin-left: 15px;
+}
+.columncontent
+{
+  display: inline-block;
+  margin-left: 70px;
+
+}
+.sideicon
+{
+  display: inline-block;
+}
+.columncontent h4{
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 25px;
+  margin-bottom: 5px;
+  color: #ef7f2c;
+  font-family: "Iowan Old Style";
+  /*font-weight: normal;*/
+
+}
+.columncontent p{
+  font-size: 12px;
+  margin-left: 25px;
+  font-weight: lighter;
+  width: 160px;
+  color: #cfcfcf;
+  line-height: 18px;
+}
+#buttonrow
+{
+  width: 100%;
+  height: 160px;
+  background-color: #050505;
+
+
+}
+#buttoncontent h1
+{
+  color: #efefef;
+  display: inline-block;
+  font-weight: lighter;
+  padding-bottom: 10px;
+  font-size: 28px;
+  font-family: "Avenir" , sans-serif;
+}
+#buttoncontent p
+{
+  color: #cfcfcf;
+  display: inline-block;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Avenir"
+  /*padding-bottom: 15px;*/
+}
+#buttoncontent
+{
+  width: 670px;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+#button{
+  display: inline-block;
+  margin-left: 155px;
+  margin-top: 54px;
+  vertical-align: top;
+}
+#button button
+{
+display: block;
+width: 130px;
+height: 45px;
+border: none;
+color: white;
+font-size: 18px;
+border-radius: 5px;
+background: linear-gradient(#f29c5b, #f08b3f, #ef802d);
+}
+
+#portfolio
+{
+  width: 100%;
+  height: 360px;
+  margin-top: 20px;
+  background-color: #1a1a1a;
+}
+#portfolio h3
+{
+color: white;
+display: inline;
+margin-left: 18px;
+font-weight: lighter;
+font-family: "Iowan Old Style";
+font-size: 20px;
+
+}
+#portfolio h4
+{
+  color: #ef7f2c;
+  display: inline;
+  margin-left: 800px;
+  font-size: 10px;
+  font-style: italic;
+}
+#portfolio a
+{
+  text-decoration: none;
+}
+.pcolumn
+{
+  display: inline-block;
+  width: 232px;
+  margin-top: 20px;
+  margin-left: 15px;
+  /*margin-right: 3px;*/
+}
+.pcolumn img{
+  width: 230px;
+  border: 3px solid #363636;
+}
+.pcolumn h2
+{
+  color: #ef7f2c;
+  display: inline-block;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: "Iowan Old Style";
+}
+.pcolumn p{
+  color: #cfcfcf;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: lighter;
+  line-height: 15px;
+}
+h5
+{
+  color: #7a7878;
+  display: inline-block;
+  margin-left: 935px;
+  margin-top: 35px;
+  font-size: 10px;
+
+}
